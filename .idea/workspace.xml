@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="179486bb-e7d9-4f40-83fd-6d54c25fd820" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cp1404practicals/prac_03/broken_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cp1404practicals/prac_03/temperatures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp1404practicals/prac_03/temperatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/cp1404practicals/prac_03/temperatures.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cp1404practicals/prac_03" />
   </component>
-  <component name="RunManager" selected="Python.password_check">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mike\Desktop\CP1404\cp1404practicals\prac_03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.temperatures">
     <configuration name="git_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CP1404" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,8 +104,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="temperatures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CP1404" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cp1404practicals/prac_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp1404practicals/prac_03/temperatures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.temperatures" />
         <item itemvalue="Python.password_check" />
         <item itemvalue="Python.git_test" />
         <item itemvalue="Python.string_formatting_examples" />
@@ -118,7 +145,7 @@
       <updated>1629616641609</updated>
       <workItem from="1629616643360" duration="15000" />
       <workItem from="1629616704497" duration="1926000" />
-      <workItem from="1629619160704" duration="1916000" />
+      <workItem from="1629619160704" duration="2642000" />
     </task>
     <task id="LOCAL-00001" summary="Add a github test program">
       <created>1629617157615</created>
@@ -148,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629622321520</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add initial broken_score.py and temperatures.py">
+      <created>1629622785975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629622785975</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,9 +192,11 @@
     <MESSAGE value="Add a github test program" />
     <MESSAGE value="Add password check program" />
     <MESSAGE value="Refactor password_check program to use functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor password_check program to use functions" />
+    <MESSAGE value="Add initial broken_score.py and temperatures.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial broken_score.py and temperatures.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CP1404$temperatures.coverage" NAME="temperatures Coverage Results" MODIFIED="1629623424696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
     <SUITE FILE_PATH="coverage/CP1404$password_check.coverage" NAME="password_check Coverage Results" MODIFIED="1629622251290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
     <SUITE FILE_PATH="coverage/CP1404$git_test.coverage" NAME="git_test Coverage Results" MODIFIED="1629617102848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
     <SUITE FILE_PATH="coverage/CP1404$string_formatting_examples.coverage" NAME="string_formatting_examples Coverage Results" MODIFIED="1629616732648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_02" />
