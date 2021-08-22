@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="179486bb-e7d9-4f40-83fd-6d54c25fd820" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cp1404practicals/prac_03/password_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp1404practicals/prac_03/password_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/cp1404practicals/prac_03/password_check.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <updated>1629616641609</updated>
       <workItem from="1629616643360" duration="15000" />
       <workItem from="1629616704497" duration="1926000" />
-      <workItem from="1629619160704" duration="600000" />
+      <workItem from="1629619160704" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="Add a github test program">
       <created>1629617157615</created>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629619237073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add password check program">
+      <created>1629619797918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629619797918</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +152,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add password check program" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CP1404$password_check.coverage" NAME="password_check Coverage Results" MODIFIED="1629619682164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
+    <SUITE FILE_PATH="coverage/CP1404$password_check.coverage" NAME="password_check Coverage Results" MODIFIED="1629622251290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
     <SUITE FILE_PATH="coverage/CP1404$git_test.coverage" NAME="git_test Coverage Results" MODIFIED="1629617102848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
     <SUITE FILE_PATH="coverage/CP1404$string_formatting_examples.coverage" NAME="string_formatting_examples Coverage Results" MODIFIED="1629616732648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_02" />
   </component>
