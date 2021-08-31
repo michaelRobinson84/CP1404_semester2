@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="179486bb-e7d9-4f40-83fd-6d54c25fd820" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cp1404practicals/prac_04/total_income.py" beforeDir="false" afterPath="$PROJECT_DIR$/cp1404practicals/prac_04/total_income.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp1404practicals/prac_04/subject_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/cp1404practicals/prac_04/subject_reader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +39,7 @@
       <recent name="C:\Users\Mike\Desktop\CP1404\cp1404practicals\prac_03" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.total_income">
-    <configuration name="broken_score" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CP1404" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cp1404practicals/prac_03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp1404practicals/prac_03/broken_score.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.subject_reader">
     <configuration name="functions_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CP1404" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +76,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp1404practicals/prac_04/lists_warmup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subject_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CP1404" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cp1404practicals/prac_04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp1404practicals/prac_04/subject_reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.subject_reader" />
         <item itemvalue="Python.total_income" />
         <item itemvalue="Python.lists_warmup" />
         <item itemvalue="Python.functions_test" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.broken_score" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,7 @@
       <workItem from="1629616704497" duration="1926000" />
       <workItem from="1629619160704" duration="4557000" />
       <workItem from="1629940775983" duration="11528000" />
-      <workItem from="1630375725100" duration="3926000" />
+      <workItem from="1630375725100" duration="6147000" />
     </task>
     <task id="LOCAL-00001" summary="Add a github test program">
       <created>1629617157615</created>
@@ -237,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630378081591</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add updated total_income.py">
+      <created>1630379735273</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630379735273</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add subject_reader.py and subject_data.txt starter code">
+      <created>1630379943590</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1630379943590</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,10 +266,13 @@
     <MESSAGE value="refactor broken_score.py to use functions" />
     <MESSAGE value="Add random score to broken_score.py" />
     <MESSAGE value="Add lists_warmup.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lists_warmup.py" />
+    <MESSAGE value="Add updated total_income.py" />
+    <MESSAGE value="Add subject_reader.py and subject_data.txt starter code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add subject_reader.py and subject_data.txt starter code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CP1404$temperatures.coverage" NAME="temperatures Coverage Results" MODIFIED="1629623424696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
+    <SUITE FILE_PATH="coverage/CP1404$subject_reader.coverage" NAME="subject_reader Coverage Results" MODIFIED="1630381884263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_04" />
     <SUITE FILE_PATH="coverage/CP1404$password_check.coverage" NAME="password_check Coverage Results" MODIFIED="1629622251290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
     <SUITE FILE_PATH="coverage/CP1404$lists_warmup.coverage" NAME="lists_warmup Coverage Results" MODIFIED="1630377389547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_04" />
     <SUITE FILE_PATH="coverage/CP1404$git_test.coverage" NAME="git_test Coverage Results" MODIFIED="1629617102848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cp1404practicals/prac_03" />
