@@ -1,73 +1,34 @@
-letters = "abcdefg"
-letters_list = list(letters)
+"""
+CP1404/CP5632 Practical - Suggested Solution
+Quick pick program
+"""
 
-print(letters_list)
+import random
 
-print(letters_list[:3:2])
+NUMBERS_PER_LINE = 6
+MINIMUM = 1
+MAXIMUM = 45
 
-print([1, 2, 3, 4, 5][2])
 
-list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+def main():
+    """Quick picks program - choose sets of random numbers."""
+    number_of_quick_picks = int(input("How many quick picks? "))
+    while number_of_quick_picks < 0:
+        print("That makes no sense!")
+        number_of_quick_picks = int(input("How many quick picks? "))
 
-print(list_of_lists)
-print()
-print(max(list_of_lists))
-print()
+    for i in range(number_of_quick_picks):
+        quick_pick = []
+        for j in range(NUMBERS_PER_LINE):
+            number = random.randint(MINIMUM, MAXIMUM)
+            while number in quick_pick:
+                number = random.randint(MINIMUM, MAXIMUM)
+            quick_pick.append(number)
+        quick_pick.sort()
+        # the following uses a generator expression (like a list comprehension)
+        # to format each number in quick_pick in the same way
+        # this is then turned into a single string with the join method
+        print(" ".join("{:2}".format(number) for number in quick_pick))
 
-for i in letters_list:
-    print(i)
-    letters_list.remove(i)
-    print(i)
 
-print("*************************************************************************")
-print()
-my_list = ['a', [1, 2, 3, 4, 5, 6, 7, 8, 9], 'z']
-print(my_list[1])
-print(my_list[1][2])
-print("The length of the outer list is ", end='')
-print(len(my_list))
-print("The length of the inner list is ", end='')
-print(len(my_list[1]))
-print()
-my_str = "This is a test"
-string_elements = my_str.split()
-print(string_elements)
-reversed_elements = []
-for element in string_elements:
-    reversed_elements.append(element[::-1])
-
-print(reversed_elements)
-new_str = ' '.join(reversed_elements)
-print(new_str)
-print()
-numbers = [10, 20, 30]
-things = numbers
-numbers.append(40)
-print(numbers)
-print(things)
-print()
-
-scores = []
-score = int(input("Score: "))
-while score >= 0:
-    scores.append(score)
-    score = int(input("Score: "))
-print("Your highest score is", max(scores))
-print()
-tup = 2, 3
-print(type(tup))
-print(tup)
-print()
-
-my_tup = (1)
-my_tup2 = (1,)
-print(type(my_tup))
-print(type(my_tup2))
-print()
-
-date_input = input("Enter DOB (d/m/y)")
-parts = date_input.split("/")
-my_dob = (int(parts[0]), int(parts[1]), int(parts[2]))
-print(my_dob)
-print(type(parts))
-print(type(my_dob))
+main()
