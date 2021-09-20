@@ -1,9 +1,11 @@
-my_subjects = {"CP1401", "CP1404", "MA1000"}
-your_subjects = {"CP1404", "MA1008", "NM1010", "CP1401"}
+# Python program to get
+# dictionary keys as list
 
-print(my_subjects - your_subjects)
-print(my_subjects | your_subjects)
-print(my_subjects & your_subjects)
-print(my_subjects ^ your_subjects)
+def getList(dict):
+    return dict.keys()
 
-print()
+
+# Driver program
+dict = {1: 'Geeks', 2: 'for', 3: 'geeks'}
+print(getList(dict))
+
