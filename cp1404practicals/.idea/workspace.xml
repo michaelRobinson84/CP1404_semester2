@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8602f89-57e3-46fa-9139-2337197c74e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_05/emails.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_05/emails.py" afterDir="false" />
-    </list>
+    <list default="true" id="c8602f89-57e3-46fa-9139-2337197c74e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +167,7 @@
       <workItem from="1631679895448" duration="4444000" />
       <workItem from="1631753013103" duration="18417000" />
       <workItem from="1632106672140" duration="8703000" />
-      <workItem from="1632185121523" duration="15225000" />
+      <workItem from="1632185121523" duration="16087000" />
     </task>
     <task id="LOCAL-00001" summary="Getting things up to date">
       <created>1631769106222</created>
@@ -207,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632111356313</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add emails.py">
+      <created>1632207101682</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632207101682</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Getting things up to date" />
     <MESSAGE value="Add word_occurrences.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add word_occurrences.py" />
+    <MESSAGE value="Add emails.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add emails.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cp1404practicals$word_occurrences.coverage" NAME="word_occurrences Coverage Results" MODIFIED="1632109361654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_05" />
