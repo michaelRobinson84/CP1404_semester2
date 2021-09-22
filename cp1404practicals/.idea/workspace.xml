@@ -168,6 +168,7 @@
       <workItem from="1631753013103" duration="18417000" />
       <workItem from="1632106672140" duration="8703000" />
       <workItem from="1632185121523" duration="16087000" />
+      <workItem from="1632284078185" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="Getting things up to date">
       <created>1631769106222</created>
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632207101682</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add emails.py">
+      <created>1632284137701</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632284137701</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
