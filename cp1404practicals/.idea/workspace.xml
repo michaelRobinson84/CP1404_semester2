@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8602f89-57e3-46fa-9139-2337197c74e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prac_07/box_layout.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_07/box_layout_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_07/convert_miles_km.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_07/convert_miles_km.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_07/dynamic_labels.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_07/dynamic_labels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_07/squaring.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_07/squaring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_08/car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_08/silver_service_taxi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_08/silver_service_taxi_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_08/taxi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_08/taxi_simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_08/taxi_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_08/unreliable_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_08/unreliable_car_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prac_01/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_01/test.py" afterDir="false" />
     </list>
@@ -45,8 +45,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.dynamic_labels">
-    <configuration name="box_layout_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.taxi_simulator">
+    <configuration name="silver_service_taxi_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cp1404practicals" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,12 +54,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_07/box_layout_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_08/silver_service_taxi_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="convert_miles_km" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="taxi_simulator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cp1404practicals" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,12 +76,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_07/convert_miles_km.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_08/taxi_simulator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamic_labels" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="taxi_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cp1404practicals" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,12 +98,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_07/dynamic_labels.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_08/taxi_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="popup_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cp1404practicals" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,12 +120,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_07/popup_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_08/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="squaring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="unreliable_car_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cp1404practicals" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,12 +142,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_07/squaring.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_08/unreliable_car_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dynamic_labels" />
-        <item itemvalue="Python.convert_miles_km" />
-        <item itemvalue="Python.popup_demo" />
-        <item itemvalue="Python.squaring" />
-        <item itemvalue="Python.box_layout_demo" />
+        <item itemvalue="Python.taxi_simulator" />
+        <item itemvalue="Python.silver_service_taxi_test" />
+        <item itemvalue="Python.unreliable_car_test" />
+        <item itemvalue="Python.taxi_test" />
+        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +188,10 @@
       <workItem from="1632958886075" duration="16000" />
       <workItem from="1632958945676" duration="9496000" />
       <workItem from="1633372919641" duration="12423000" />
+      <workItem from="1633450632924" duration="3813000" />
+      <workItem from="1633464814280" duration="3358000" />
+      <workItem from="1633471047941" duration="8770000" />
+      <workItem from="1633541624382" duration="20673000" />
     </task>
     <task id="LOCAL-00001" summary="Getting things up to date">
       <created>1631769106222</created>
@@ -252,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632717380781</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Get everything up-to-date">
+      <created>1633450676007</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1633450676007</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,13 +287,18 @@
     <SUITE FILE_PATH="coverage/cp1404practicals$hex_colours.coverage" NAME="hex_colours Coverage Results" MODIFIED="1631774197081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_05" />
     <SUITE FILE_PATH="coverage/cp1404practicals$state_names.coverage" NAME="state_names Coverage Results" MODIFIED="1631772939357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_05" />
     <SUITE FILE_PATH="coverage/cp1404practicals$languages.coverage" NAME="languages Coverage Results" MODIFIED="1632634088408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/cp1404practicals$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1633481086676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_08" />
     <SUITE FILE_PATH="coverage/cp1404practicals$guitars.coverage" NAME="guitars Coverage Results" MODIFIED="1632641843127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
     <SUITE FILE_PATH="coverage/cp1404practicals$emails.coverage" NAME="emails Coverage Results" MODIFIED="1632200253351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_05" />
     <SUITE FILE_PATH="coverage/cp1404practicals$box_layout_demo.coverage" NAME="box_layout_demo Coverage Results" MODIFIED="1632873978398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_07" />
     <SUITE FILE_PATH="coverage/cp1404practicals$popup_demo.coverage" NAME="popup_demo Coverage Results" MODIFIED="1632968210523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_07" />
     <SUITE FILE_PATH="coverage/cp1404practicals$squaring.coverage" NAME="squaring Coverage Results" MODIFIED="1632962080037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_07" />
-    <SUITE FILE_PATH="coverage/cp1404practicals$test.coverage" NAME="test Coverage Results" MODIFIED="1632728805576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_01" />
+    <SUITE FILE_PATH="coverage/cp1404practicals$test.coverage" NAME="test Coverage Results" MODIFIED="1633451816570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_01" />
+    <SUITE FILE_PATH="coverage/cp1404practicals$unreliable_car_test.coverage" NAME="unreliable_car_test Coverage Results" MODIFIED="1633544784560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_08" />
     <SUITE FILE_PATH="coverage/cp1404practicals$programming_language.coverage" NAME="programming_language Coverage Results" MODIFIED="1632633740847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
     <SUITE FILE_PATH="coverage/cp1404practicals$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1632790216741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_07" />
+    <SUITE FILE_PATH="coverage/cp1404practicals$silver_service_taxi_test.coverage" NAME="silver_service_taxi_test Coverage Results" MODIFIED="1633550120193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_08" />
+    <SUITE FILE_PATH="coverage/cp1404practicals$taxi_test.coverage" NAME="taxi_test Coverage Results" MODIFIED="1633485558072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_08" />
+    <SUITE FILE_PATH="coverage/cp1404practicals$taxi_simulator.coverage" NAME="taxi_simulator Coverage Results" MODIFIED="1633569202932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_08" />
   </component>
 </project>
