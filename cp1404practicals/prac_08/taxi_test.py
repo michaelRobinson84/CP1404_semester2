@@ -15,3 +15,4 @@ new_taxi.drive(100)
 print(new_taxi)
 temp_fare = new_taxi.price_per_km * new_taxi.current_fare_distance
 print("Current fare: ${}".format(temp_fare))
+
